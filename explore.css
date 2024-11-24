@@ -28,17 +28,24 @@ img {
 nav {
     background-color: #00379a;
     color: white;
+    grid-column: 1 / 3;
 }
 
 main {
     background-color: #fba44a;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
 }
 
 footer {
     background-color: #5600aa;
     color: white;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
 }
 
 aside {
     background-color: #fd6986;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
 }
