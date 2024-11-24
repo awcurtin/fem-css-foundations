@@ -1,0 +1,42 @@
+@import url("base.css");
+
+/*
+:root {
+
+}
+*/
+
+img {
+    width: 300px;
+}
+
+
+
+.grid {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin-bottom: 100px;
+}
+
+.grid > * {
+    text-align: center;
+}
+
+nav {
+    background-color: #00379a;
+    color: white;
+}
+
+main {
+    background-color: #fba44a;
+}
+
+footer {
+    background-color: #5600aa;
+    color: white;
+}
+
+aside {
+    background-color: #fd6986;
+}
